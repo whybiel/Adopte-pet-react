@@ -1,38 +1,122 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  font-family: 'Rubik', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body{
+  width:100%;
+  height:300vh;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: rgb(245, 154, 35);
 }
-
-.App-link {
-  color: #61dafb;
+.adopt{
+  font-size:3rem;
+  color:white;
+  margin:5vh 0 3vh 0;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.center{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container-dog{
+  width:55vw;
+  height: 35vh;
+  margin:2vh 0 2vh 0;
+  color:white;
+  border-radius:10px;
+  background-color: rgb(78, 78, 155);
+  position: relative;
+  padding:1.5vh 0 0 3vw;
+}
+.container-dog:hover{
+  transform: scale(1.1);
+  cursor:pointer;
+}
+.tulio{
+  width:20vw;
+  overflow: hidden;
+  border-radius:10px;
+  position: absolute;
+  top:5vh;
+  left:33vw;
+  border:5px solid white;
+}
+.srd{
+  width:20vw;
+  overflow: hidden;
+  border-radius:10px;
+  position: absolute;
+  top:5vh;
+  left:33vw;
+  border:5px solid white;
+}
+.pastor{
+  width:20vw;
+  overflow: hidden;
+  border-radius:10px;
+  position: absolute;
+  top:5vh;
+  left:33vw;
+  border:5px solid white;
+}
+.container-cat{
+  width:55vw;
+  height: 35vh;
+  margin:2vh 0 2vh 0;
+  color:white;
+  border-radius:10px;
+  background-color: rgb(92, 85, 22);
+  position: relative;
+  padding:1.5vh 0 0 3vw;
+}
+.container-cat:hover{
+  transform: scale(1.1);
+  cursor:pointer;
+}
+.oliver{
+  width:20vw;
+  overflow: hidden;
+  border-radius:10px;
+  position: absolute;
+  top:5vh;
+  left:33vw;
+  border:5px solid white;
+}
+.lola{
+  width:20vw;
+  overflow: hidden;
+  border-radius:10px;
+  position: absolute;
+  top:5vh;
+  left:33vw;
+  border:5px solid white;
+}
+.garfield{
+  width:15vw;
+  height:25vh;
+  overflow: hidden;
+  border-radius:10px;
+  position: absolute;
+  top:5vh;
+  left:33vw;
+  border:5px solid white;
+}
+button{
+  width:10vw;
+  height:5vh;
+  font-size: 1.2em;;
+  color:white;
+  margin:1vh 0 1vh 0;
+  border:none;
+  border-radius: 20px;
+  background-color:rgb(24, 24, 46);
+}
+button:hover{
+  transform: scale(1.1);
+  cursor:pointer;
 }
