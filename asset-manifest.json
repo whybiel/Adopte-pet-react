@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Adopte-pet-react/static/css/main.f5e0615f.css",
+    "main.js": "/Adopte-pet-react/static/js/main.f80e6b32.js",
+    "static/js/787.1ed0c42c.chunk.js": "/Adopte-pet-react/static/js/787.1ed0c42c.chunk.js",
+    "static/media/srd.png": "/Adopte-pet-react/static/media/srd.dcc3ef0b665b80dadbeb.png",
+    "static/media/oliver.jpg": "/Adopte-pet-react/static/media/oliver.fd5a383786f7759b3a4e.jpg",
+    "static/media/tulio.jpg": "/Adopte-pet-react/static/media/tulio.2b70cbb3cc432e4b82a0.jpg",
+    "static/media/pastor.jpg": "/Adopte-pet-react/static/media/pastor.3b34075e4564c5be7e93.jpg",
+    "static/media/lola.jpg": "/Adopte-pet-react/static/media/lola.d20b2717009360254a8e.jpg",
+    "index.html": "/Adopte-pet-react/index.html",
+    "main.f5e0615f.css.map": "/Adopte-pet-react/static/css/main.f5e0615f.css.map",
+    "main.f80e6b32.js.map": "/Adopte-pet-react/static/js/main.f80e6b32.js.map",
+    "787.1ed0c42c.chunk.js.map": "/Adopte-pet-react/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f5e0615f.css",
+    "static/js/main.f80e6b32.js"
+  ]
+}
